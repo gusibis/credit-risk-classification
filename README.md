@@ -98,9 +98,20 @@
         </ul>
     <h3>Results</h3>
     <h4>Machine Learning Model 1:</h4>
-        * Description of Model 1 Accuracy, Precision, and Recall scores.
+        <li>
+            <p>* Model 1 Overall Accuracy 99%</p>
+            <p>* Model 1 balanced accuracy score 0.95% (0.9520479254722232).</p>
+            <p>* Model 1 Precision 100% for healthy loans and 85% for high-risk loans.</p>
+            <p>*Recall 99% for healthy loans and 91% for high-risk loans</p>
+            <img src="./Credit_Risk/model1SUmmary.png">
+        </li>
     <h4>Machine Learning Model 2:</h4>
-        * Description of Model 2 Accuracy, Precision, and Recall scores.
+        <li>
+        <p>* Description of Model 2 Accuracy, Precision, and Recall scores.</p>
+        <p></p>
+        <p></p>
+        <p></p>
+        </li>
     <h3>Summary</h3>
         Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
         * Which one seems to perform best? How do you know it performs best?
