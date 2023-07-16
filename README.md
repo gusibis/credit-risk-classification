@@ -103,7 +103,7 @@
             <p>* Model 1 balanced accuracy score 0.95% (0.9520479254722232).</p>
             <p>* Model 1 Precision 100% for healthy loans and 85% for high-risk loans.</p>
             <p>*Recall 99% for healthy loans and 91% for high-risk loans</p>
-            <img src="./Credit_Risk/model1SUmmary.png">
+            <img src="model1Summary.png">
         </li>
     <h4>Machine Learning Model 2:</h4>
         <li>
