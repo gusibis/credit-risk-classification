@@ -1,5 +1,4 @@
 # credit-risk-classification
-Module 20 Challenge
 <div id="assignment_show" class="assignment content_underline_links">
     <!--Student View-->
     <div class="assignment-title">
@@ -8,67 +7,8 @@ Module 20 Challenge
           Module 20 Challenge
         </h1>
       </div>
-    
-<ul class="student-assignment-overview">
-  <li>
-    <span class="title">Due</span>
-    <span class="value">
-          <span class="date_text">
-                <span class="display_date">Monday</span> by 
-                <span class="display_time">11:59pm</span>
-          </span><!--
-        --></span>
-  </li>
-    <li>
-      <span class="title">Points</span>
-      <span class="value">100</span>
-    </li>
-    <li>
-      <span class="title">Submitting</span>
-      <span class="value">a text entry box or a website url</span>
-    </li>
-  
-
-  <div class="clear"></div>
-</ul>
-
-  <div class="clear"></div>
-
-
-  <div class="clear"></div>
-
-
-
   <div class="description user_content enhanced"><div id="bootcamp">
 <img style="display: none;" src="https://static.bc-edx.com/data/dl-1-2/m20/lms/img/banner.jpg" alt="lesson banner" tabindex="0" role="button" aria-label="lesson banner. Click to Enlarge." class="external-link-icon">
-    <h3>Background</h3>
-    <p>In this Challenge, you’ll use various techniques to train and evaluate a model based on loan risk. You’ll use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.</p>
-    <h3>Before You Begin</h3>
-    <ol>
-        <li>
-            <p>Create a new repository for this project called <code>credit-risk-classification</code>. <strong>Do not add this homework to an existing repository.</strong></p>
-        </li>
-        <li>
-            <p>Clone the new repository to your computer.</p>
-        </li>
-        <li>
-            <p>Inside your <code>credit-risk-classification</code> repository, create a folder titled "Credit_Risk."</p>
-        </li>
-        <li>
-            <p>Inside the "Credit_Risk" folder, add the <code>credit_risk_classification.ipynb</code> and <code>lending_data.csv</code> files found in the "Starter_Code.zip" file.</p>
-        </li>
-        <li>
-            <p>Push your changes to GitHub.</p>
-        </li>
-    </ol>
-    <h3>Files</h3>
-    <p>Download the following files to help you get started:</p>
-    <ul>
-        <li><a href="https://static.bc-edx.com/data/dl-1-2/m20/lms/starter/Starter_Code.zip" class="external" target="_blank" rel="noreferrer noopener" aria-label="Module 20 Challenge files (Links to an external site)."><span>Module 20 Challenge files</span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg" style="width:1em; height:1em; vertical-align:middle; fill:currentColor">
-    <path d="M1226.66667,267 C1314.88,267 1386.66667,338.786667 1386.66667,427 L1386.66667,427 L1386.66667,853.666667 L1280,853.666667 L1280,693.666667 L106.666667,693.666667 L106.666667,1493.66667 C106.666667,1523 130.56,1547 160,1547 L160,1547 L1226.66667,1547 C1256.10667,1547 1280,1523 1280,1493.66667 L1280,1493.66667 L1280,1280.33333 L1386.66667,1280.33333 L1386.66667,1493.66667 C1386.66667,1581.88 1314.88,1653.66667 1226.66667,1653.66667 L1226.66667,1653.66667 L160,1653.66667 C71.7866667,1653.66667 0,1581.88 0,1493.66667 L0,1493.66667 L0,427 C0,338.786667 71.7866667,267 160,267 L160,267 Z M1584.37333,709.293333 L1904.37333,1029.29333 C1925.17333,1050.09333 1925.17333,1083.90667 1904.37333,1104.70667 L1904.37333,1104.70667 L1584.37333,1424.70667 L1508.96,1349.29333 L1737.86667,1120.38667 L906.613333,1120.38667 L906.613333,1013.72 L1737.86667,1013.72 L1508.96,784.706667 L1584.37333,709.293333 Z M1226.66667,373.666667 L160,373.666667 C130.56,373.666667 106.666667,397.666667 106.666667,427 L106.666667,427 L106.666667,587 L1280,587 L1280,427 C1280,397.666667 1256.10667,373.666667 1226.66667,373.666667 L1226.66667,373.666667 Z" stroke="none" stroke-width="1" fill-rule="evenodd"></path>
-</svg>
-<span class="screenreader-only">Links to an external site.</span></span></a></li>
-    </ul>
     <h3>Instructions</h3>
     <p>The instructions for this Challenge are divided into the following subsections:</p>
     <ul>
@@ -91,7 +31,6 @@ Module 20 Challenge
         <li>
             <p>Create the labels set (<code>y</code>) from the “loan_status” column, and then create the features (<code>X</code>) DataFrame from the remaining columns.</p>
             <div class="content-section callout note title-above"><strong class="blockquote-title">note</strong><div>
-
                 <p>A value of 0 in the “loan_status” column means that the loan is healthy. A value of 1 means that the loan has a high risk of defaulting.</p>
             </div></div>
         </li>
