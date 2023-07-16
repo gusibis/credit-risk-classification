@@ -78,8 +78,7 @@
     </ol>
 </div>
 <div>
-    <h3>Overview of the Analysis</h3>
-        <p>In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:</p>
+    <h3>Overview of the Analysis:</h3>
         <ul>
             <li>
                 <p>Explain the purpose of the analysis.</p>
@@ -99,18 +98,11 @@
         </ul>
     <h3>Results</h3>
     <h4>Machine Learning Model 1:</h4>
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
-
-
-
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
-
-<h3>Summary</h3>
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+        * Description of Model 1 Accuracy, Precision, and Recall scores.
+    <h4>Machine Learning Model 2:</h4>
+        * Description of Model 2 Accuracy, Precision, and Recall scores.
+    <h3>Summary</h3>
+        Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
+        * Which one seems to perform best? How do you know it performs best?
+        * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
 </div>
