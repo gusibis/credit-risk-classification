@@ -80,36 +80,28 @@
 <div>
     <h3>Overview of the Analysis:</h3>
         <ul>
-            <li>
-                <p>Explain the purpose of the analysis.</p>
-            </li>
-            <li>
-                <p>Explain what financial information the data was on, and what you needed to predict.</p>
-            </li>
-            <li>
-                <p>Provide basic information about the variables you were trying to predict (e.g., `value_counts`).</p>
-            </li>
-            <li>
-                <p>Describe the stages of the machine learning process you went through as part of this analysis.</p>
-            </li>
-            <li>
-                <p>Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).</p>
-            </li>
+            <li><p>Explain the purpose of the analysis.</p></li>
+            <li><p>Explain what financial information the data was on, and what you needed to predict.</p></li>
+            <li><p>Provide basic information about the variables you were trying to predict (e.g., `value_counts`).</p></li>
+            <li><p>Describe the stages of the machine learning process you went through as part of this analysis.</p></li>
+            <li><p>Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).</p></li>
         </ul>
     <h3>Results</h3>
-    <h4>Machine Learning Model 1:</h4>
+    <h4>Machine Learning Model 1 (Healthy loans=0, high-risk loans=1):</h4>
         <li>Model 1 Overall Accuracy 99%</li>
         <li>Model 1 balanced accuracy score 0.95% (0.9520479254722232).</li>
         <li>Model 1 Precision 100% for healthy loans and 85% for high-risk loans.</li>
-        <li>Recall 99% for healthy loans and 91% for high-risk loans</li>
+        <li>Model 1 Recall 99% for healthy loans and 91% for high-risk loans</li>
+        <li>Model 1 f1-score 100% for healthy loans and 88% for high-risk loans</li>
         <img src="model1Summary.png">
-    <h4>Machine Learning Model 2:</h4>
-        <li>Description of Model 2 Accuracy, Precision, and Recall scores.</li>
-        <li></li>
-        <li></li>
-        <li></li>
+    <h4>Machine Learning Model 2 (Healthy loans=0, high-risk loans=1):</h4>
+        <li>Model 2 Overall Accuracy 99%</li>
+        <li>Model 2 balanced accuracy score 0.99% (0.9936781215845847).</li>
+        <li>Model 2 Precision 100% for healthy loans and 84% for high-risk loans.</li>
+        <li>Model 2 Recall 99% for healthy loans and also 99% for high-risk loans</li>
+        <li>Model 1 f1-score 100% for healthy loans and 91% for high-risk loans</li>
+        <img src="model2Summary.png">
     <h3>Summary</h3>
-        Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-        * Which one seems to perform best? How do you know it performs best?
-        * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+        <li>The logistic regression model predicts the 0 label with accuracy 100% says it is on point and the recall is 99% which is excellent, however with the 1 label for the high-risk loans, the precision is 85% and the  recall is 91%. 85% precision is low for high-risk loans in my opinion, also the recall tells us about how the model identifies true positives and 91% is not too bad but it all depends of the level of risk the business should keep to be profitable and to have less liabilities given that it is higher-risk loans. Of course we would need to verify the results to have a better perspective. Thesecond model performed a bit better than model 1 with healthy loans accuracy of 99% and a recall of 99% (true positive score), as well as a f1-score that if our data contains the total number of observations the calculation function of precision and recall (F1 Score = 2* Precision Score * Recall Score/ (Precision Score + Recall Score/)), this calculation returned 100%. I think this is a good model for our data if we were only working with healthy loans. For the high risk loans this model did a bit better than the previous, even though the precision is one percent down, the recall and f1-score improved. If I had to choose between the 2 models I would pick this second model. </li>
+        <li> I have to say that both models could be insufficient for the line of business and risk level since the most importan prediction would be for the high-risk loans, both have a low precision score, but again there could be other variables such as total amount of loans and the level or risk the business can take to be profitable and safe at the same time. If a choice had to be made between the the two, the second model performed better although the precision was 1 percent less, the recall and f1-score had a good improvement. </li>
 </div>
